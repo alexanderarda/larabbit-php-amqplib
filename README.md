@@ -1,0 +1,2 @@
+# larabbit
+Laravel x RabbitMQ
