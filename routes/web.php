@@ -11,4 +11,4 @@
 |
 */
 
-Route::resource('/', 'MessageController');
+Route::resource('/message', 'MessageController');
