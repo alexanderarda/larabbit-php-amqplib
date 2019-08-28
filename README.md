@@ -1,21 +1,29 @@
-# larabbit
-Laravel x RabbitMQ
+# Larabbit - Publishing Message Using `php-amqplib`
+
+Example publish message using pure PHP implementation
+
+### :rocket: TL;DR
+
+#### Publish Message
+
+```php
+$msg = new Message();
+for($idx = 0; $idx < 25; $idx++ ){
+    $rand = str_random(4);
+    $msg->sendMessage($rand);
+    echo "Send message = ".$rand."<br/>";
+}
+``` 
 
 
-## Getting Started
-
+## Library
+```bash
+https://github.com/php-amqplib/php-amqplib
 ```
-# Clone this repository
-git clone https://github.com/alexanderarda/larabbit.git
+References :
+https://www.rabbitmq.com/tutorials/tutorial-one-php.html
 
-cd larabbit
-cp .env.example .env
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-# Install dependencies
-composer install
-
-php artisan key:generate
-
-# Run migrations
-php artisan migrate
-```
+Please make sure to update tests as appropriate.
