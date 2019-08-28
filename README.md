@@ -2,6 +2,8 @@
 
 Laravel project example for publish message using pure PHP implementation of `php-amqplib` 
 
+![alt text](https://laravel.com/assets/img/components/logo-laravel.svg)
+
 ### :rocket: TL;DR
 
 #### Publish Message
