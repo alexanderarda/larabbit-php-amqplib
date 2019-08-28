@@ -1,6 +1,6 @@
-# Larabbit - Publishing Message Using `php-amqplib`
+# Larabbit Series - Publishing Message Using `php-amqplib`
 
-Example publish message using pure PHP implementation
+Laravel project example for publish message using pure PHP implementation of `php-amqplib` 
 
 ### :rocket: TL;DR
 
