@@ -1,6 +1,6 @@
 # Larabbit Series - Publishing Message Using `php-amqplib`
 
-Laravel project example for publish message using pure PHP implementation of `php-amqplib` 
+Laravel project example for publish message in RabbitMQ using pure PHP implementation of `php-amqplib` 
 
 ![alt text](https://laravel.com/assets/img/components/logo-laravel.svg)
 
